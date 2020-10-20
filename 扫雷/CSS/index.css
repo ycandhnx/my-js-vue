@@ -1,0 +1,120 @@
+#mine {
+    margin: 50px auto;
+}
+
+.level {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.level button {
+    padding: 5px 15px;
+    background: #02a4ad;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.level button.active {
+    background: #00abff;
+}
+
+.info {
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+/* 雷 */
+
+.mine {
+    background: #d9d9d9 url("../images/resizeApi.png")no-repeat center;
+    background-size: cover;
+}
+
+
+/* 旗帜 */
+
+.flag {
+    background: #ccc url("../images/flag.png") no-repeat center;
+    background-size: cover;
+}
+
+table {
+    border-spacing: 1px;
+    background: #929196;
+    margin: 0 auto;
+}
+
+
+/* 每个格子的样式 */
+
+td {
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background: #ccc;
+    border: 2px solid;
+    border-color: #fff #a1a1a1 #a1a1a1 #ffff;
+    text-align: center;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+
+/* 每个数字的样式 */
+
+td.zero {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+}
+
+td.one {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: #0332fe;
+}
+
+td.two {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: #019f02
+}
+
+td.three {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: #ff2600
+}
+
+td.four {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: #93208f
+}
+
+td.five {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: #ff7f29
+}
+
+td.six {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: #ff3fff;
+}
+
+td.seven {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: #3fffbf
+}
+
+td.eight {
+    border-color: #d9d9d9;
+    background: #d9d9d9;
+    color: #22ee0f
+}
