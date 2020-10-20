@@ -1,0 +1,898 @@
+    @import "./common.css";
+    /* 通用代码 */
+    
+    body {
+        font: 12px Helvetica, Arial, sans-serif;
+        line-height: 1.62;
+    }
+    
+    a {
+        color: #37a;
+        font-size: 12px;
+    }
+    
+    a:link {
+        color: #37a;
+    }
+    
+    a:visited {
+        color: #669;
+    }
+    
+    a:hover {
+        color: #fff;
+        text-decoration: none;
+        background: #37a;
+    }
+    
+    a:active {
+        color: #fff;
+        background: #f93;
+    }
+    
+    .right {
+        width: 265px;
+        margin-left: 30px;
+    }
+    
+    aside {
+        margin-right: 20px;
+        width: 100px;
+    }
+    
+    aside h2 a {
+        color: #494949;
+        font-size: 24px;
+    }
+    
+    aside .aside-item ul li {
+        font-size: 14px;
+        margin-top: 5px;
+        width: 100px;
+        display: block;
+    }
+    
+    .main {
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+    /* 通用代码结束 */
+    
+    header .bottom a:visited,
+    header .bottom a:hover,
+    header .bottom a:link,
+    header .bottom a:active {
+        color: #41ac52;
+        background: none;
+    }
+    
+    header {
+        line-height: 1.5;
+        width: 100%;
+    }
+    /* 头部导航菜单与搜索 */
+    
+    header .top {
+        margin: 25px 134.5px;
+        height: 34px;
+        width: 1060px;
+    }
+    
+    header .top h1 {
+        width: 160px;
+        display: inline-block;
+        overflow: hidden;
+        height: 34px;
+        margin-right: 30px;
+    }
+    
+    a {
+        cursor: pointer;
+    }
+    
+    header .top h1 a {
+        display: inline-block;
+        height: 34px;
+        width: 160px;
+        line-height: 10em;
+        background: url(../images/top1.png) no-repeat 0 0;
+    }
+    
+    input::-webkit-input-placeholder {
+        color: #ccc;
+    }
+    
+    input::-moz-placeholder {
+        color: #ccc;
+    }
+    
+    input:-ms-input-placeholder {
+        color: #ccc;
+    }
+    
+    input::-ms-input-placeholder {
+        color: #ccc;
+    }
+    
+    input::placeholder {
+        color: #ccc;
+    }
+    
+    header .top .top-input {
+        display: inline-block;
+        width: 288px;
+        height: 32px;
+        border: 1px solid #c3c3c3;
+        box-sizing: border-box;
+        vertical-align: 14px;
+    }
+    
+    header .top .top-input input[type="text"] {
+        width: 240px;
+        border: none;
+        padding: 5px;
+    }
+    
+    header .top .top-input button[type="submit"] {
+        background: transparent;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        color: #ccc;
+    }
+    
+    header .top .top-right {
+        float: right;
+    }
+    
+    header .top .top-right ul li {
+        display: inline-block;
+        margin-right: 14px;
+    }
+    
+    header .top .top-right ul li a {
+        display: inline-block;
+        width: 40px;
+        height: 20px;
+        line-height: 20em;
+        overflow: hidden;
+        background: url(../images/top2.png) no-repeat;
+    }
+    
+    header .top .top-right ul li a.link-move {
+        background-position: -60px 0;
+    }
+    
+    header .top .top-right ul li a.link-music {
+        background-position: -120px 0;
+    }
+    
+    header .top .top-right ul li a.link-city {
+        background-position: -180px 0;
+    }
+    
+    header .top .top-right ul li a.link-group {
+        background-position: -240px 0;
+    }
+    
+    header .top .top-right ul li a.link-read {
+        background-position: -300px 0;
+    }
+    
+    header .top .top-right ul li a.link-FM {
+        background-position: -360px 0;
+    }
+    
+    header .top .top-right ul li a.link-time {
+        background: url(../images/top2-time.png);
+    }
+    
+    header .top .top-right ul li a.link-DP {
+        background-position: -422px 0;
+    }
+    /* 头部导航菜单与搜索结束 */
+    /* 登录注册页面 */
+    
+    .iframe {
+        float: right;
+        width: 317px;
+        height: 311px;
+    }
+    
+    header .bottom {
+        background: url(../images/bottom.jpg) no-repeat;
+        background-size: contain;
+        background-position: calc(50% - 305px) top;
+        background-color: #edf4ed;
+        width: 100%;
+        height: 304px;
+    }
+    
+    header .bottom .warpper {
+        width: 950px;
+        margin: 0 auto;
+        height: 304px;
+    }
+    
+    header .bottom .warpper .app {
+        height: 100%;
+        width: 650px;
+        position: relative;
+    }
+    
+    header .bottom .warpper .app .app-ma {
+        width: 150px;
+        height: 120px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 15px;
+        margin: auto 0;
+    }
+    
+    header .bottom .warpper .app .app-ma p {
+        margin: 7px 0;
+        font-size: 25px;
+        color: #111;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    
+    header .bottom .warpper .app .app-ma .app-url a.normel {
+        font-size: 12px;
+        text-align: center;
+        background-color: #00B51D;
+        border-radius: 2px;
+        color: #fff;
+        display: inline-block;
+        padding: 9px 21px;
+        line-height: 12px;
+    }
+    
+    header .bottom .warpper .app .app-ma .app-url a.ma-a img.smallma {
+        width: 30px;
+        height: 30px;
+        vertical-align: middle;
+        border: 1px solid #48aa0d;
+        border-radius: 2px;
+        box-sizing: border-box;
+    }
+    
+    header .bottom .warpper .app .app-ma .app-url a.ma-a {
+        position: relative;
+        display: inline-block;
+    }
+    
+    header .bottom .warpper .app .app-ma .bigma {
+        display: none;
+        padding: 20px;
+        background-color: #fff;
+    }
+    
+    header .bottom .warpper .app .app-ma .bigma img {
+        width: 160px;
+        height: 160px;
+    }
+    
+    header .bottom .warpper .app .app-ma .bigma span {
+        font-size: 13px;
+        text-align: center;
+        color: #666;
+        display: block;
+    }
+    
+    header .bottom .warpper .app .app-ma .app-url a.ma-a:hover .bigma {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    /* 登录注册结束 */
+    /* 页面头部结束 */
+    /* 热点内容 */
+    
+    .hot {
+        padding: 10px 0;
+        margin-bottom: 30px;
+        min-height: 200px;
+    }
+    
+    .hot-content {
+        padding: 20px 0;
+        color: #999;
+    }
+    
+    .hot-content .left-content .pictures {
+        width: 360px;
+        margin-top: -10px;
+    }
+    
+    .hot-content .left-content .pictures .pictures-item {
+        width: 170px;
+        float: left;
+        margin: 10px 10px 0 0;
+    }
+    
+    .hot-content .left-content .pictures .pictures-item span {
+        text-align: left;
+    }
+    
+    .hot-content .left-content .pictures .pictures-item>a {
+        font-size: 0;
+    }
+    
+    .mid-content {
+        width: 275px;
+        overflow: hidden;
+        padding: 20px 10px;
+    }
+    
+    .mid-content ul li {
+        margin-top: 12px;
+    }
+    
+    .mid-content ul li p {
+        color: #666;
+    }
+    
+    .hot-content .right-content .mod-item a {
+        font-size: 14px;
+    }
+    
+    .hot-content .right-content .mod-item span {
+        display: block;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    
+    .hot-content .right-content .mod-item ul li {
+        margin: 10px 0 15px 0;
+        line-height: 1;
+    }
+    
+    .hot-content .right-content .right-top img {
+        width: 250px;
+        height: 125px;
+        display: block;
+        margin: 10px 0;
+    }
+    /* 热点内容结束 */
+    /* 豆瓣时间 */
+    
+    .time {
+        background: #f7f7f7;
+        padding: 40px 0 20px 0;
+        margin-bottom: 30px;
+        min-height: 200px;
+    }
+    
+    aside {
+        margin-right: 20px;
+        width: 100px;
+    }
+    
+    aside h2 a {
+        color: #494949;
+        font-size: 24px;
+    }
+    
+    .time .time-content .main .music-item ul li {
+        float: left;
+        width: 100px;
+        margin-right: 60px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .time .time-content .main .music-item ul li a {
+        display: block;
+        color: #333333;
+        font-size: 13px;
+        line-height: 1.38;
+    }
+    
+    .time ul li a img {
+        width: 100px;
+        height: 141px;
+    }
+    
+    .time .time-content .main .music-item ul li span {
+        color: #999999;
+        line-height: 1;
+        margin-top: 10px;
+        display: block;
+    }
+    /* 豆瓣时间结束 */
+    /* 电影 */
+    
+    .move {
+        padding: 10px 0;
+        margin-bottom: 30px;
+        min-height: 200px;
+    }
+    
+    .move .move-content .right .more {
+        margin-bottom: 30px;
+    }
+    
+    .move .move-content .right .more .move-charts ul li {
+        list-style-type: decimal;
+        list-style-position: inside;
+        border-bottom: 1px solid #eaeaea;
+        margin-bottom: 6px;
+        padding-bottom: 5px;
+    }
+    
+    .move .move-content .right .more-list ul li {
+        display: inline-block;
+        width: 4em;
+        margin-top: 4px;
+    }
+    
+    .move .move-content .move-item {
+        overflow: hidden;
+    }
+    
+    .move .move-content .move-item .move-list ul li {
+        margin-bottom: 20px;
+        width: 24.5%;
+        text-align: center;
+        display: inline-block;
+    }
+    
+    .move .move-content .move-item .move-list ul li .img {
+        height: 145px;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+    
+    .move .move-content .move-item .move-list ul li .img img {
+        width: 100px;
+    }
+    
+    .move .move-content .move-item .move-list ul li .titile a {
+        color: #333;
+        font-size: 13px;
+    }
+    
+    .move .move-content .move-item .move-list ul li .rating {
+        margin-bottom: 4px;
+    }
+    
+    .move .move-content .move-item .move-list ul li .rating span {
+        display: inline-block;
+        width: 55px;
+        height: 11px;
+        margin-right: 3px;
+        background: url(../images/move2.png) no-repeat;
+        background-position: 0 -11px;
+    }
+    
+    .move .move-content .move-item .move-list ul li .rating i {
+        margin-left: 4px;
+        color: #e09015;
+    }
+    
+    .move .move-content .move-item .move-list ul li a.buy {
+        display: inline-block;
+        background-color: #1c8bd0;
+        color: #fff;
+        padding: 2px 10px;
+    }
+    
+    .move .move-content .move-item .move-list ul li a.buy:hover {
+        background-color: #047fcb;
+    }
+    /* 电影结束 */
+    /* 小组 */
+    
+    .group {
+        padding: 40px 0 20px;
+        background: #f7f7f7;
+        margin-bottom: 30px;
+        min-height: 200px;
+    }
+    
+    .group .group-content aside .aside-item ul li {
+        font-size: 14px;
+        margin-top: 5px;
+        width: 100px;
+        display: block;
+    }
+    
+    .group .group-content .right .more .more-list ul li {
+        display: inline-block;
+        margin-left: 10px
+    }
+    
+    .group .group-content .right .more .more-list ul {
+        margin-left: -10px;
+    }
+    
+    .group .group-content .right .more .more-list ul li:first-child {
+        width: 100%;
+        margin-bottom: 2px;
+    }
+    
+    .group .group-content .right .more .more-list ul li:first-child a {
+        font-size: 14px;
+        color: #333;
+    }
+    
+    .group .group-content .group-item .group-list ul li .left {
+        float: left;
+        margin-right: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .group .group-content .group-item .group-list ul li .left img {
+        width: 48px;
+    }
+    
+    .group .group-content .group-item .group-list ul li .main {
+        margin-bottom: 5px;
+    }
+    
+    .group .group-content .group-item .group-list ul li .main p {
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
+    
+    .group .group-content .group-item .group-list ul li {
+        width: 248px;
+        margin-top: 30px;
+        text-align: left;
+        overflow: hidden;
+        color: #999;
+        display: inline-block;
+        line-height: 1.45;
+    }
+    /* 小组结束 */
+    /* 读书 */
+    
+    .read {
+        padding: 10px 0;
+        margin-bottom: 30px;
+        min-height: 200px;
+    }
+    
+    .read a {
+        font-size: 14px;
+        color: #614e3c;
+    }
+    
+    .read aside h2 a {
+        font-size: 24px;
+    }
+    
+    .read .right .more .more-list ul li {
+        display: inline-block;
+        margin-left: 10px;
+    }
+    
+    .read .right .more .more-list ul li:first-child {
+        width: auto;
+        font-size: 12px;
+        color: #999;
+    }
+    
+    .read .right .more .more-list ul li a {
+        font-size: 12px;
+        color: #614e3c;
+    }
+    
+    .read .right .more .more-list {
+        padding-bottom: 10px;
+        margin: -1px 0 10px 0;
+        border-bottom: 1px solid #eaeaea;
+    }
+    
+    .read .right .more div.more-list:last-child {
+        border: none;
+    }
+    
+    .read .right .more .more-list ul {
+        margin-left: -10px;
+    }
+    
+    .read .main .read-list ul li {
+        margin-bottom: 20px;
+        width: 24.5%;
+        text-align: center;
+        display: inline-block;
+    }
+    
+    .read .main .read-list ul li .img {
+        height: 145px;
+        overflow: hidden;
+        margin-bottom: 10px;
+    }
+    
+    .read .main .read-list ul li a {
+        font-size: 13px;
+    }
+    
+    .read .main .read-list ul li .img img {
+        width: 100px;
+    }
+    
+    .read .main .read-list ul li a.buy {
+        display: inline-block;
+        background-color: #999a95;
+        color: #fff;
+        padding: 2px 10px;
+        border-radius: 2px;
+    }
+    
+    .read .main .read-list ul li a.buy:hover {
+        background-color: #878882;
+    }
+    /* 读书结束 */
+    /* 音乐 */
+    
+    .music {
+        background: #f7f7f7;
+        padding: 40px 0 20px 0;
+        margin-bottom: 30px;
+        min-height: 200px;
+    }
+    
+    .music aside h2 a {
+        color: #f38c00;
+        font-size: 24px;
+    }
+    
+    .music a {
+        color: #555d53;
+        font-size: 14px;
+    }
+    
+    .music .right .more .more-list ul li .left a {
+        font-size: 0;
+    }
+    
+    .music .right .more .more-list ul li .left {
+        position: relative;
+        margin: 0 10px;
+    }
+    
+    .music .right .more .more-list ul li .left:hover i.backG {
+        background: #222;
+        opacity: .85;
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    .music .right .more .more-list ul li .left:hover i.play {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        overflow: hidden;
+        width: 9px;
+        height: 11px;
+        margin: -6px 0 0 -4px;
+        background: url("../images/music2.png") no-repeat;
+    }
+    
+    .music .right .more .more-list ul li .main span {
+        display: block;
+        color: #999;
+    }
+    
+    .music .right .more .more-list ul li .left img {
+        width: 48px;
+    }
+    
+    .music .right .more .more-list ul li {
+        list-style-type: decimal;
+        margin-left: 12px;
+    }
+    
+    .music .main .music-list ul li .img img {
+        width: 80px;
+        height: 80px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .music .main .music-list ul li {
+        margin-bottom: 20px;
+        width: 24.5%;
+        text-align: center;
+        display: inline-block;
+    }
+    
+    .music .main .music-list ul li span {
+        display: inline-block;
+        width: 55px;
+        height: 11px;
+        margin-right: 3px;
+        background: url(../images/move2.png) no-repeat;
+        background-position: 0 -11px;
+    }
+    
+    .music .main .music-list ul li {
+        color: #555d53;
+    }
+    
+    .music .main .music-list ul li a {
+        font-size: 12px;
+    }
+    
+    .music .main .music-list ul li i {
+        margin-left: 4px;
+        color: #e09015;
+    }
+    /* 音乐结束 */
+    /* 豆品 */
+    
+    .doupin {
+        padding: 10px 0;
+        margin-bottom: 30px;
+        min-height: 200px;
+        color: #1f9432;
+    }
+    
+    .doupin aside h2 a {
+        color: #1f9432;
+    }
+    
+    .doupin .right .more ul li .right-backG {
+        background: url("../images/doupin1.jpg") no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 95px;
+    }
+    
+    .doupin .right .more ul li p a {
+        font-size: 14px;
+    }
+    
+    .doupin .right .more ul {
+        margin-bottom: 30px;
+    }
+    
+    .doupin .main .doupin-list ul li .main-backG {
+        background: url(../images/doupin2.jpg) no-repeat;
+        height: 220px;
+        width: 240px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .doupin .main .doupin-list ul li {
+        width: 240px;
+        display: inline-block;
+        margin-bottom: 30px;
+        margin-right: 20px;
+    }
+    
+    .doupin .main .doupin-list ul li .main-bottom {
+        margin-top: 22px;
+        color: #E55457;
+        line-height: 22px;
+        font-size: 16px
+    }
+    
+    .doupin .main .doupin-list ul li .main-bottom a {
+        font-size: 16px;
+    }
+    
+    .doupin .main .doupin-list ul li .main-bottom .right {
+        width: auto;
+    }
+    /* 豆品结束 */
+    /* 同城 */
+    
+    .city {
+        background: #f7f7f7;
+        padding: 40px 0 20px 0;
+        margin-bottom: 30px;
+        min-height: 200px;
+    }
+    
+    .city aside h2 a {
+        color: #ec5303;
+    }
+    
+    .city aside .aside-item ul li a {
+        font-size: 14px;
+        color: #643;
+    }
+    
+    .city .right .more .more-list ul li {
+        display: inline-block;
+    }
+    
+    .city .right .more .more-list ul li:first-child {
+        display: block;
+    }
+    
+    .city .right .more .more-list ul li:first-child a {
+        color: #333;
+        font-size: 14px;
+    }
+    
+    .city .right .more .more-list ul li a {
+        color: #643;
+    }
+    
+    .city .main .city-list ul {
+        margin-left: -20px;
+    }
+    
+    .city .main .city-list ul li {
+        width: 248px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+        text-align: left;
+        overflow: hidden;
+        display: inline-block;
+    }
+    
+    .city .main .city-list ul li .left img {
+        width: 70px;
+        height: 90px;
+        vertical-align: middle;
+    }
+    
+    .city .main .city-list ul li .left a {
+        line-height: 0;
+    }
+    
+    .city .main .city-list ul li .left {
+        margin: 0 10px 10px 0;
+    }
+    
+    .city .main .city-list ul li .main {
+        margin-bottom: 0;
+    }
+    
+    .city .main .city-list ul li .main p a {
+        font-size: 13px;
+        color: #643;
+    }
+    
+    .city .main .city-list ul li .main span {
+        color: #666;
+        display: block;
+    }
+    /* 同城结束 */
+    /* 底部 */
+    
+    .footer .footer-content .right {
+        width: 413px;
+    }
+    
+    .footer .footer-content {
+        padding: 14px 0;
+        margin-top: 30px;
+        border-top: 1px dashed #dcdcdc;
+        color: #999;
+    }
+    
+    .bottom {
+        margin-bottom: 10px;
+        position: relative;
+    }
+    
+    .bottom+.titile {
+        line-height: 1.45;
+        font-size: 13px;
+        color: #111;
+    }
+    
+    .bottom i {
+        background: url("../images/music5.png") no-repeat;
+        width: 44px;
+        height: 44px;
+        position: absolute;
+        left: 40px;
+        top: 15px;
+    }
+    /* 底部结束 */
+    /* 底部结束 */

@@ -1,0 +1,276 @@
+@import "./common.css";
+
+/* 通用代码 */
+
+.containr a {
+    color: #41ac52;
+}
+
+input[type="text"],
+input[type="password"] {
+    border: 1px solid #e4e6e5;
+    border-radius: 3px;
+    width: 280px;
+    font-size: 13px;
+    box-sizing: border-box;
+    background: #fff;
+    height: 34px;
+    padding-left: 10px;
+}
+
+input[type="text"].more {
+    padding-left: 60px;
+}
+
+
+/* 通用代码结束 */
+
+.containr {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    line-height: 2;
+    color: #9b9b9b;
+    font-family: Helvetica, Arial, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+
+/* 切换登录方式 */
+
+.containr .login .top {
+    border-bottom: 1px solid #ececec;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.containr .login .top span {
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.containr .login .top span.selected {
+    border-bottom: 1px solid #494949;
+    color: #333;
+    font-weight: 600;
+}
+
+
+/* 切换登录方式结束 */
+
+
+/* 表单 */
+
+.containr .login .form .form-item p {
+    font-size: 12px;
+}
+
+.containr .login .form .form-item {
+    margin-bottom: 10px;
+    position: relative;
+    font-size: 13px;
+}
+
+.containr .login .form .form-item .country-code {
+    width: 51px;
+    height: 24px;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #333;
+    border-right: 1px solid rgba(0, 0, 0, .12);
+}
+
+.containr .login .form .form-item .country-code .choose-country {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, .5);
+    z-index: 1;
+}
+
+.containr .login .form .form-item .country-code .choose-country .code {
+    width: 284px;
+    height: 225px;
+    border: 1px solid #bbb;
+    background: #fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.containr .login .form .form-item .country-code .choose-country .code .code-top {
+    background: #ebf5eb;
+    font-size: 16px;
+    padding: 10px;
+    padding-bottom: 6px;
+    text-align: left;
+    color: #060;
+    cursor: auto;
+}
+
+.containr .login .form .form-item .country-code .choose-country .code a {
+    position: absolute;
+    top: 2px;
+    right: 11px;
+    color: #9b9b9b;
+}
+
+.containr .login .form .form-item .country-code .choose-country .code a:link {
+    color: #b4b4b4
+}
+
+.containr .login .form .form-item .country-code .choose-country .code a:hover {
+    color: #fab0b6;
+    background: none
+}
+
+.containr .login .form .form-item .country-code .choose-country .code .code-item {
+    padding: 15px;
+    height: 150px;
+    overflow: auto
+}
+
+.containr .login .form .form-item .country-code .choose-country .code .code-item ul {
+    font-size: 14px;
+}
+
+.containr .login .form .form-item .country-code .choose-country .code .code-item ul li {
+    border-top: 1px solid #e5e5e5;
+    color: #494949;
+    line-height: 2.6;
+    cursor: pointer;
+}
+
+.containr .login .form .form-item .country-code .choose-country .code .code-item ul li:last-child {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.containr .login .form .form-item .country-code .choose-country .code .code-item ul li .right {
+    color: #aaa;
+    font-weight: normal;
+}
+
+.containr .login .form .form-item .country-code .choose-country .code .code-item ul li.selected span {
+    color: #42bd56;
+}
+
+.containr .login .form .form-item .country-code .choose-country .code .code-item ul li.selected i {
+    margin-left: 10px;
+    color: #42bd56;
+}
+
+.containr .login .form .form-item .btn:disabled {
+    background: rgba(66, 189, 86, .5);
+}
+
+.containr .login .form .form-item .btn {
+    text-align: center;
+    width: 280px;
+    font-size: 15px;
+    background: #41ac52;
+    color: #fff;
+    height: 34px;
+    line-height: 34px;
+    border-radius: 3px;
+}
+
+.containr .login .form .form-item label {
+    color: #333;
+}
+
+
+/* 表单结束 */
+
+
+/* 微博，微信登录 */
+
+.containr .login .otherway {
+    border-top: 1px solid #ddd;
+}
+
+.containr .login .otherway span:first-child {
+    font-size: 11px;
+}
+
+.containr .login .otherway span:last-child a {
+    font-size: 20px;
+    margin-left: 10px
+}
+
+
+/* 微信，微博登录结束 */
+
+
+/* 二维码 */
+
+.containr .qr-code {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    right: 10px;
+    top: 10px;
+}
+
+.containr .qr-code .icon-qr {
+    width: 30px;
+    height: 30px;
+    display: block;
+    cursor: pointer;
+}
+
+.containr .qr-code .qr1 {
+    background: url("../images/qr-code1.png") no-repeat left top/100% 100%;
+}
+
+.containr .qr-code .qr2 {
+    background: url("../images/qr-code2.png") no-repeat left top/100% 100%;
+}
+
+.containr .qr {
+    font-size: 13px;
+}
+
+.containr .qr .top-tip {
+    color: #333;
+    font-weight: 600;
+    text-align: left;
+}
+
+.containr .qr .imgqr {
+    text-align: center;
+}
+
+.containr .qr .imgqr img {
+    width: 170px;
+    height: 170px;
+    display: inline-block;
+    background: #fff;
+}
+
+.containr .qr .bottom-tip {
+    width: 185px;
+    height: 25px;
+    margin: 10px auto;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, .08);
+    text-align: center;
+    color: #494949;
+}
+
+
+/* 二维码结束 */
